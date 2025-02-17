@@ -3,13 +3,9 @@ package com.example.ejercicioskotlin
 fun main() {
     println("- Ejercicio 10")
 
-    println("Escriba un numero:")
+    println("Escriba tres numeros:")
     val x = readln().toInt()
-
-    println("Escriba un numero:")
     val y = readln().toInt()
-
-    println("Escriba un numero:")
     val z = readln().toInt()
 
     val result = numeroMayor(x, y, z)
