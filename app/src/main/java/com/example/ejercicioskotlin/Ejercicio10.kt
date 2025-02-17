@@ -1,0 +1,34 @@
+package com.example.ejercicioskotlin
+
+fun main() {
+    println("- Ejercicio 10")
+
+    println("Escriba un numero:")
+    val x = readln().toInt()
+
+    println("Escriba un numero:")
+    val y = readln().toInt()
+
+    println("Escriba un numero:")
+    val z = readln().toInt()
+
+    val result = numeroMayor(x, y, z)
+    println("El numero mayor es: $result")
+}
+
+fun numeroMayor(a: Int, b: Int, c: Int): Int {
+
+    var mayor = a
+    if (b > mayor) {
+        mayor = b
+    }
+    if (c > mayor) {
+        mayor = c
+    }
+
+    if (a == b && a == c) {
+        println("Son iguales")
+    }
+
+    return mayor
+}
