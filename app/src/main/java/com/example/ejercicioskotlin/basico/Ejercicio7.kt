@@ -1,4 +1,4 @@
-package com.example.ejercicioskotlin
+package com.example.ejercicioskotlin.basico
 
 fun main() {
     println("- Ejercicio 7")
